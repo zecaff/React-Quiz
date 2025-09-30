@@ -1,7 +1,8 @@
 import {createContext, ReactNode, useContext, useReducer} from "react";
 import {QuestionType} from "../types/QuestionType";
 
-const API = 'http://localhost:8000/questions'
+//const API = 'http://localhost:8000/questions'
+const API = 'https://json-server-psi-nine-70.vercel.app/questions'
 const TIMEPERQUESTION = 30
 
 type QuizContextType = State & {
